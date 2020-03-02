@@ -1,11 +1,10 @@
 {
-	"name": "@pumpn/babel-config",
-	"version": "0.1.0",
-	"description": "standard babel config for pumpn code projects",
+	"name": "@pumpn/babel-preset",
+	"version": "0.2.0",
+	"description": "standard babel preset for pumpn code projects",
 	"main": "index.json",
-	"repository": "https://github.com/pumpncode/babel-config",
+	"repository": "https://github.com/pumpncode/babel-preset",
 	"author": "Nano Miratus <nanomiratus@gmail.com>",
 	"license": "MIT",
-	"private": false,
 	"type": "module"
 }
