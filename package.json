@@ -2,10 +2,11 @@
 	"name": "@pumpn/babel-preset",
 	"version": "2.0.0",
 	"description": "standard babel preset for pumpn code projects",
-	"main": "index.js",
+	"main": "index.cjs",
 	"repository": "https://github.com/pumpncode/babel-preset",
 	"author": "Nano Miratus <nanomiratus@gmail.com>",
 	"license": "MIT",
+	"type": "module",
 	"dependencies": {
 		"@babel/core": "^7.12.10",
 		"@babel/plugin-proposal-class-static-block": "^7.12.1",
@@ -25,5 +26,9 @@
 	},
 	"peerDependencies": {
 		"@babel/core": "^7.12.10"
+	},
+	"devDependencies": {
+		"@pumpn/eslint-config": "^9.1.0",
+		"eslint": "^7.18.0"
 	}
 }
