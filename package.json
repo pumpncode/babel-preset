@@ -1,6 +1,6 @@
 {
 	"name": "@pumpn/babel-preset",
-	"version": "2.0.0",
+	"version": "3.0.0",
 	"description": "standard babel preset for pumpn code projects",
 	"main": "index.cjs",
 	"repository": "https://github.com/pumpncode/babel-preset",
