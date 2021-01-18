@@ -1,47 +1,39 @@
+/**
+ * @private
+ */
 module.exports = () => ({
-    "comments": true,
-	"plugins": [
+	plugins: [
+		"@babel/proposal-class-static-block",
 		[
-			"@babel/plugin-proposal-class-properties",
+			"@babel/proposal-decorators",
 			{
-				"loose": true
+				decoratorsBeforeExport: false
 			}
 		],
+		"@babel/proposal-do-expressions",
+		"@babel/proposal-export-default-from",
+		"@babel/proposal-export-namespace-from",
+		"@babel/proposal-function-bind",
+		"@babel/proposal-function-sent",
+		"@babel/proposal-logical-assignment-operators",
+		"@babel/proposal-partial-application",
 		[
-			"@babel/plugin-proposal-private-methods",
+			"@babel/proposal-pipeline-operator",
 			{
-				"loose": true
+				proposal: "minimal"
 			}
 		],
-		"@babel/plugin-proposal-export-default-from",
-		"@babel/plugin-proposal-logical-assignment-operators",
-		"@babel/plugin-proposal-partial-application",
-		[
-			"@babel/plugin-proposal-pipeline-operator",
-			{
-				"proposal": "minimal"
-			}
-		],
-		"@babel/plugin-proposal-throw-expressions",
-		[
-			"@babel/plugin-proposal-private-property-in-object",
-			{
-				"loose": true
-			}
-		],
-		[
-			"@babel/plugin-syntax-module-attributes",
-			{
-				"version": "may-2020"
-			}
-		]
+		"@babel/proposal-private-property-in-object",
+		"@babel/proposal-throw-expressions"
 	],
-	"presets": [
+	presets: [
 		[
-			"@babel/preset-env",
+			"@babel/env",
 			{
-				"targets": {
-					"node": "14"
+				shippedProposals: true,
+				targets: {
+					esmodules: true,
+					node: process.versions.node
 				}
 			}
 		]
