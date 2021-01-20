@@ -25,6 +25,7 @@ module.exports = () => ({
 		],
 		"@babel/proposal-private-property-in-object",
 		"@babel/proposal-throw-expressions",
+		"@babel/syntax-import-assertions",
 		"@babel/syntax-top-level-await"
 	],
 	presets: [
