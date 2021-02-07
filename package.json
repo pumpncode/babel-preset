@@ -34,7 +34,7 @@
 		"eslint": "^7.19.0"
 	},
 	"scripts": {
-		"release": "np --no-cleanup --no-2fa",
+		"release": "np",
 		"test": "echo 'no tests yet'"
 	}
 }
