@@ -29,10 +29,9 @@
 		"@babel/core": "^7.12.13"
 	},
 	"devDependencies": {
-		"@pumpn/eslint-config": "^10.2.0",
-		"@pumpn/np-config": "^2.0.1",
-		"eslint": "^7.19.0",
-		"np": "^7.2.0"
+		"@pumpn/eslint-config": "^10.2.1",
+		"@pumpn/np-config": "^2.1.0",
+		"eslint": "^7.19.0"
 	},
 	"scripts": {
 		"release": "np --no-cleanup --no-2fa",
