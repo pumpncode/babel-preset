@@ -8,30 +8,30 @@
 	"license": "MIT",
 	"type": "module",
 	"dependencies": {
-		"@babel/core": "^7.12.13",
+		"@babel/core": "^7.13.8",
 		"@babel/plugin-proposal-class-static-block": "^7.12.13",
-		"@babel/plugin-proposal-decorators": "^7.12.13",
+		"@babel/plugin-proposal-decorators": "^7.13.5",
 		"@babel/plugin-proposal-do-expressions": "^7.12.13",
 		"@babel/plugin-proposal-export-default-from": "^7.12.13",
 		"@babel/plugin-proposal-export-namespace-from": "^7.12.13",
 		"@babel/plugin-proposal-function-bind": "^7.12.13",
 		"@babel/plugin-proposal-function-sent": "^7.12.13",
-		"@babel/plugin-proposal-logical-assignment-operators": "^7.12.13",
+		"@babel/plugin-proposal-logical-assignment-operators": "^7.13.8",
 		"@babel/plugin-proposal-partial-application": "^7.12.13",
 		"@babel/plugin-proposal-pipeline-operator": "^7.12.13",
-		"@babel/plugin-proposal-private-property-in-object": "^7.12.13",
+		"@babel/plugin-proposal-private-property-in-object": "^7.13.0",
 		"@babel/plugin-proposal-throw-expressions": "^7.12.13",
 		"@babel/plugin-syntax-import-assertions": "^7.12.1",
 		"@babel/plugin-syntax-top-level-await": "^7.12.13",
-		"@babel/preset-env": "^7.12.13"
+		"@babel/preset-env": "^7.13.9"
 	},
 	"peerDependencies": {
-		"@babel/core": "^7.12.13"
+		"@babel/core": "^7.13.8"
 	},
 	"devDependencies": {
-		"@pumpn/eslint-config": "^10.2.1",
-		"@pumpn/np-config": "^2.1.0",
-		"eslint": "^7.19.0"
+		"@pumpn/eslint-config": "^10.2.2",
+		"@pumpn/np-config": "^2.3.0",
+		"eslint": "^7.21.0"
 	},
 	"scripts": {
 		"release": "np",
