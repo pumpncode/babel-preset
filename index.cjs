@@ -32,6 +32,7 @@ module.exports = () => ({
 		[
 			"@babel/env",
 			{
+				modules: false,
 				shippedProposals: true,
 				targets: {
 					esmodules: true,
