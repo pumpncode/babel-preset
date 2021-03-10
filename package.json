@@ -8,7 +8,7 @@
 	"license": "MIT",
 	"type": "module",
 	"dependencies": {
-		"@babel/core": "^7.13.8",
+		"@babel/core": "^7.13.10",
 		"@babel/plugin-proposal-class-static-block": "^7.12.13",
 		"@babel/plugin-proposal-decorators": "^7.13.5",
 		"@babel/plugin-proposal-do-expressions": "^7.12.13",
@@ -23,14 +23,14 @@
 		"@babel/plugin-proposal-throw-expressions": "^7.12.13",
 		"@babel/plugin-syntax-import-assertions": "^7.12.1",
 		"@babel/plugin-syntax-top-level-await": "^7.12.13",
-		"@babel/preset-env": "^7.13.9"
+		"@babel/preset-env": "^7.13.10"
 	},
 	"peerDependencies": {
-		"@babel/core": "^7.13.8"
+		"@babel/core": "^7.13.10"
 	},
 	"devDependencies": {
-		"@pumpn/eslint-config": "^10.2.2",
-		"@pumpn/np-config": "^2.3.0",
+		"@pumpn/eslint-config": "^10.3.0",
+		"@pumpn/np-config": "^2.3.1",
 		"eslint": "^7.21.0"
 	},
 	"scripts": {
